@@ -1,43 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/stilos.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Righteous&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stilos.css">
     <title>Alpa Pampa - Productos de Panificacion</title>
 </head>
 <body>
     <main>
         <header>
-           <img class="logo" src="assets/icons/alpaplogo.png" alt="logo de alpa pampa productos de Panificacion">       
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-between">
+                        <img class="logo" src="assets/icons/alpaplogo.png" alt="logo de alpa pampa productos de Panificacion">  
+                    </div>
+                </div>
+            </div>     
         </header> 
 
         <section>
-            <h1 class="empresa">Alpa Pampa</h1>
-            <h3 class="tipoDeEmpresa">Productos de Panificacion</h3>
-            <p class="slogan">Nunca es tarde para un antojo</p>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-xl-12 alignText mx-auto">
+                        <h1 class="empresa">Alpa Pampa</h1>
+                        <h3 class="tipoDeEmpresa">Productos de Panificacion</h3>
+                        <p class="slogan">Nunca es tarde para un antojo</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <aside>
             <img class="aside" src="assets/img/foto portada.jpg" alt="foto de portada">
         </aside>
 
-        <nav>
-            <ul>
-                <li> <a href="index.html">Inicio</a></li>
-                <li><a href="pages/alfajores.html">Alfajores</a></li>  
-                <li><a href="pages/pasteleria.html">Pasteleria</a></li>
-                <li><a href="pages/chocolateria.html">Chocolates</a> </li>
-                <li><a href="pages/nosotros.html">Historia</a></li>
-                <li><a href="pages/contactos.html">Contacto</a></li>
-              </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-rgb(66, 62, 54)">
+  <div class="container-fluid" >
+    <a class="navbar-brand" href="index.html">Inicio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="pages/alfajores.html">Alfajores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pages/pasteleria.html">Pasteleria</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pages/chocolateria.html">Chocolates</a>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/contacto.html">Contacto</a>
+      </ul>
+    </div>
+  </div>
+</nav>
 
         <footer>
             <p> &copy;Alpa Pampa - 2021 - todos los derechos reservados</p>
@@ -48,5 +72,6 @@
         </footer>
 
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
