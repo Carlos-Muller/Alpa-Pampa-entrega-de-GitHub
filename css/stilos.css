@@ -55,7 +55,8 @@ nav{
     
 }
 footer{
-    font-family: 'Cookie', cursive;
+    font-family: 'Merienda', cursive;
+    font-size: 20px;
     grid-area: pie;
     background-color: rgb(66, 62, 54);
     display: flex;
@@ -116,8 +117,8 @@ nav li{
 
 .empresa{
     margin: 50px 70px;
-    font-size: 150px;
-    font-family: 'Cookie', cursive;
+    font-size: 100px;
+    font-family: 'La Belle Aurore', cursive;
     display: flex;
     text-align: center;
     align-items: center;
@@ -126,7 +127,7 @@ nav li{
 .tipoDeEmpresa{
     margin: 0px 70px;
     font-size: 50px;
-    font-family: 'Cookie', cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     text-align: center;
     align-items: center;
@@ -141,4 +142,56 @@ nav li{
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+
+.sectionPrincipal{
+    padding: 2rem;
+    display: flex;
+    font-size: 16px;
+    justify-content: space-evenly;
+    
+
+}
+
+.caja{
+    padding: 2px;
+    text-align: center;
+    align-items: center;
+    justify-content:space-around;
+    background-color: rgb(218, 173, 59);
+    border-radius: 50px;
+    width: 200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cajaImg{
+    width: 150px;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.cajaTitulo{
+    color: black;
+
+}
+
+.cajaParrafo{
+    color: black;
+}
+
+.nosotros{
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 750px;
+}
+.formulario{
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    
 }
