@@ -1,0 +1,31 @@
+$colorfondo:rgb(44, 44, 44);
+$color-titulo: rgb(216, 149, 5);
+$tipografia: Verdana;
+$size-titulos: 150px;
+$tipografia2: Times;
+
+.principal{
+    background-color: $colorfondo;
+    h1{
+        color: $color-titulo;
+        font-size: $size-titulos;
+        font-family: $tipografia2;
+        
+
+        &:hover{
+            color: rgb(202, 144, 18);
+            font-size: 130px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+        }
+    }
+    h3{
+        font-size: 20px;
+    }
+    p{
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+
+}
