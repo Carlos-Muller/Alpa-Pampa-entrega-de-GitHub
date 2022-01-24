@@ -157,8 +157,8 @@ nav li{
     align-items: center;
     justify-content:space-around;
     background-color: rgb(218, 173, 59);
-    border-radius: 50px;
-    width: 200px;
+    border-radius:40px;
+    width: 170px;
     height: 350px;
     display: flex;
     flex-direction: column;
